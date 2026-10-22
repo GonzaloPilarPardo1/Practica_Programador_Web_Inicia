@@ -6,11 +6,11 @@
    * Fixed:
     URL: https://chat.deepseek.com/
 
-* Absolute: 
-    URL: https://www.hostinger.com/ar
+  * Absolute: 
+  URL: https://www.hostinger.com/ar
 
- * Sticky:
-    URL: https://stackblitz.com/
+  * Sticky:
+  URL: https://stackblitz.com/
 
 
 ![Gonzalo Pilar Partdo][Foto] Gonzalo Pilar Pardo
