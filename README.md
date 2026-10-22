@@ -2,6 +2,15 @@
 
 - Practica 1: Formulario
 - Practica 2: Box Modeling
+- Practica 3: Position
+   # Fixed:
+    URL: https://chat.deepseek.com/
+
+# Absolute: 
+    URL: https://www.hostinger.com/ar
+
+# Sticky:
+    URL: https://stackblitz.com/
 
 
 ![Gonzalo Pilar Partdo][Foto] Gonzalo Pilar Pardo
