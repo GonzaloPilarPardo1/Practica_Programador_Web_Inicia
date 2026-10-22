@@ -1,0 +1,98 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  --color-fondo-1: #cac9ff;
+  --color-fondo-2: #f1f1ff;
+  --color-btn:#673DE6;
+  --color-degredient-1: #e536db;
+  --color-degredient-2: #e536db; 
+  --color-degredient-3: #3a9bff;
+  --color-borde-input:  #dadbf6;
+  --blanco:#ffffff;
+  --negro:#000000;
+ }
+
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(https://www.hostinger.com/cdn-cgi/imagedelivery/LqiWLm-3MGbYHtFuUbcBtA/280d07ab-6324-4398-2c83-333b237a6b00/sharpen=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 50% center;
+  height: 800px;
+  width: 100%;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 48px;
+  font-weight: 400;
+  padding: 10px;
+
+}
+
+.h2__gradient{
+  -webkit-text-fill-color: transparent;
+  color: var(--negro);
+  background: linear-gradient(
+      -87.63deg,
+      var(--color-degredient-1) 6.95%,
+      var(--color-degredient-2) 51.17%,
+      var(--color-degredient-3) 109.29%
+    )
+    text;
+}
+.content__serch{
+  height: 50%;
+  width: 50%;
+}
+.subtitle{
+  font-size: 14px;
+}
+
+.search-form{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative
+;
+
+}
+input{
+  width: 100%;
+  height: 46px;
+  border-radius: 12px;
+  margin: 15px;
+  border: var(--color-borde-input) solid 2px;
+  padding: 10px;
+  font-size: 17px;
+  color: var(--negro);
+
+}
+.search-form__btn{
+  position: absolute;
+  border-radius: 12px;
+  background-color: var(--color-btn);
+  color: white;
+  height: 40px;
+  width: 40px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+  -webkit-text-stroke: 0.5px
+}
